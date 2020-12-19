@@ -3,8 +3,11 @@ let inputsAnim = document.getElementsByTagName('input');
 
 for(let input of inputsAnim) {
   let val = input.value;
-  input.onfocus = function() {    
-    input.value = '';
+  let data = '';
+  input.onfocus = function() {  
+    if(data === '') {
+      input.value = '';
+    }    
     input.style.borderColor = '#feca30';
     input.style.transition = 'all 0.5s';    
   }
@@ -13,6 +16,9 @@ for(let input of inputsAnim) {
     if(input.value === '') {
       input.value = val;       
     }
+    if(input.value !== val) {
+      data = input.value;
+    }    
     input.style.borderColor = 'white';
     input.style.transition = 'all 0.5s';
   }

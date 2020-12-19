@@ -15,7 +15,7 @@ sendFormButton.onclick = function() {
                 content += '\n' + input.value;        
             }                      
         }
-        alert(content);
+        alert(content);        
     } else {
         //Не подтвердили соглашение. Делаем встряску.
         confirmText.animate([{ transform: 'translateX(0px)' },
