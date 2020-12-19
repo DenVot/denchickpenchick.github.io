@@ -58,8 +58,9 @@ footer div {
 }
 
 a {
+  transition: color 0.3s;
   font-family: Arial, Helvetica, sans-serif;
-  color: #ffffff;
+  color: #888888;
   text-decoration: none;
   margin-right: 2em;
   margin-bottom: 2em;
@@ -91,6 +92,16 @@ input {
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
+}
+
+.navigation-panel {
+  transition: color 0.3s;
+  color: #888888;
+}
+
+.navigation-panel :hover {
+  transition: color 0.3s;
+  color: white;
 }
 
 .other-contacts {
@@ -276,6 +287,11 @@ p {
   flex-direction: row;
 }
 
+.footer-navigation-panel :hover {
+  transition: color 0.3s;
+  color: white;
+}
+
 .footer-navigation-panel nav {
   margin: 10px;
 }
@@ -314,6 +330,11 @@ p {
 
 .other-contacts li {
   list-style-type: none;
+}
+
+.description-div {
+  display: flex;
+  justify-content: space-between;
 }
 
 @keyframes moon-rocket-image-anim {
