@@ -1,0 +1,193 @@
+<!--Войтенко Денис 9А-->
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="../img/logo.ico" type="image/x-icon">
+        <title>SpaceZ</title>                
+    </head>
+    <body>
+        <header>            
+            <div class="navigation-panel">                
+                <div style="margin-left: 5%; width: 10%;"><img src="../img/logo.png" alt="Logo"></div>                
+                <nav class="navigation-panel" style="padding: 20px;" aria-label="NavElems">
+                    <a href="">Компания</a>
+                    <a href="">Каталог</a>
+                    <a href="">Контакты</a>
+                </nav>                                
+                <div style="margin-left: auto;">
+                    <ul aria-label="nav-elems" class="other-contacts">
+                        <li><a style="margin-left: 10px;" href="mailto:email@email.rui"><img src="../img/mail-icon.png" alt="mail-icon"></a></li>
+                        <li><a style="margin-left: 20px;" href=""><img src="../img/phone-icon.png" alt="phone-icon"></a></li>
+                    </ul>
+                </div>
+            </div>            
+        </header>
+        <main>    
+            <div class="intro-description">
+                <div class="get-tour">
+                    <div class="get-tour-text">
+                        <h1>На луну и обратно</h1>
+                        <p style="font-size: 25px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Космически крутой туризм. Пакетные и индивидульные туры по лучшим планетам галактики</p>
+                    </div>                                    
+                    <button class="get-tour-button" id="GetTourButton">
+                        <div style="align-self: center;"><p><strong>ПОДБОР ТУРА</strong></p></div>
+                        <div class="intro-arrow"><img src="../img/right-arrow-dark.png" alt="right-arrow"></div>
+                    </button>                                                                                    
+                </div>                
+                <div class="rocket-image"></div>
+            </div>
+            <div class="advantages">
+                <div class="advantages-div">
+                    <div class="advantage-style">
+                        <img src="../img/advantage-icon-1.png" alt="rocket-icon">
+                        <p>Комфортабельные ракеты отечественного произодства.</p>                    
+                    </div>
+                    <div class="advantage-style">
+                        <img src="../img/advantage-icon-2.png" alt="rocket-icon">
+                        <p>Вкусное и полезное космическое питание на борту.</p>                    
+                    </div>
+                    <div class="advantage-style">
+                        <img src="../img/advantage-icon-3.png" alt="rocket-icon">
+                        <p>Весь состав пилотов состоит из бывших космонавтов.</p>                    
+                    </div>
+                    <div class="advantage-style">
+                        <img src="../img/advantage-icon-4.png" alt="rocket-icon">
+                        <p>Экскурсии на луноходе на Море Ясности и Океан бурь.</p>                    
+                    </div>
+                </div>                
+            </div>          
+            <div class="description">                
+                <div class="description-of-tour" style="color: black;">
+                    <img src="../img/map.jpg" alt="map" width="500" height="450" style="margin-top: 50px;">               
+                    <div>
+                        <h2>Надоело летать в отпуск за границу? Как на счет того, чтобы слетать на Луну?</h2>
+                        <article style="width: 20em;">
+                            <p>
+                                Устали от пакетных туров и пляжного отдыха? Полотенца
+                                и магнитики, которые вы привозите из отпуска уже
+                                не радуют ваших близких? В следующий раз привезите
+                                им настоящий лунный камень!                         
+                            </p>
+                            <p>
+                                Мы предлагаем инновационную услугу на туристическом
+                                рынке — космический туризм (пока только на Луну, сейчас
+                                решаем вопросы с визовым центром Венеры).                        
+                            </p>
+                            <p>
+                                Берите отпуск и отправляйтесь с нами в полет,
+                                он займет всего 72 часа!
+                            </p>                        
+                        </article>
+                    </div>                  
+                    <div class="lists-div">
+                        <div>
+                            <p>Не забудьте взять с собой:</p>
+                            <ul>
+                                <li><span><strong>Паспорт.</strong> Визовый режим пока не введен, но на границе будет досмотр.</span></li>
+                                <li><span><strong>Тяжелые ботинки.</strong> Пригодятся вам в условиях низкой гравитации на Луне.</span></li>
+                                <li><span><strong>Криптовалюта.</strong> Рекомендуем заранее обменять Лун-коинов, чтобы купить сувениры.</span></li>
+                            </ul>
+                        </div>  
+                        <div>
+                            <p>Это лучше оставить дома:</p>
+                            <ul>
+                                <li><span><strong>Телефон.</strong> В космосе не ловит ваш любимый оператор и нет WiFi.</span></li>
+                                <li><span><strong>Бутерброды.</strong> На борту будет питание, которое не разлетится по всей кабине в условиях невесомости.</span></li>
+                                <li><span><strong>Плавки/купальник.</strong> Море Ясности и Океан Бурь это большие краторы. Без воды.</span></li>
+                            </ul>
+                        </div>              
+                    </div>                                                          
+                </div>   
+            </div>                                           
+            <div class="send-request-of-tour">
+                <div>
+                    <h3 style="font-size: 24px;">Готовы открыть для себя что-то новое?</h3>
+                    <p>Отправьте заявку, заполнив форму справа, мы расмотрим вашу кандидатуру и свяжемся с Вами в течение 24 часов</p>
+                </div>                
+                <div id="request-form" class="request-form">  <!--Можно помять на form-->                           
+                    <input type="text" value="ФИО">
+                    <input type="text" value="Контактный телефон">
+                    <div class="heigth-weigth-input-box">
+                        <input type="text" value="Рост">
+                        <input type="text" value="Вес">
+                    </div>
+                    <div class="confirm-personal-data">
+                        <input style="zoom: 2;" type="checkbox" id="ConfirmPersonalData" onchange="CheckedValueChanged()">
+                        <p id='text-of-confirm'>Согласен(-а) на обработку персональных данных</p>
+                    </div>                    
+                    <button class="send-confirm">
+                        <div style="align-self: center;"><p style="margin: 0;"><strong>Отправить</strong></p></div>
+                        <div style="align-self: center; margin-left: auto;"><img src="../img/right-arrow-white.png" alt="right-arrow"></div>
+                    </button>                                            
+                </div>
+            </div>
+            <div class="table-of-flights">
+                <div><h4>Расписание полетов</h4></div>
+                <div style="margin-left: 10em; width: 500px;">
+                    <p style="font-size: 13px;">
+                        Для вашего удобства мы разработали график полетов
+                        с вылетами из Москвы и Санкт-Петербурга. Вы также можете
+                        запросить <a href="">индивидуальный полет.</a>
+                    </p>
+                </div>                                                            
+                <table style="margin: 50px;">
+                    <caption></caption>
+                    <thead>
+                        <th scope="col">№ рейса</th>                        
+                        <th scope="col">Откуда-куда</th>
+                        <th scope="col">Время вылета</th>
+                        <th scope="col">Время прилета</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1635</th>
+                            <th scope="row">VKO —MOON</th>
+                            <th scope="row">00:45</th>
+                            <th scope="row">23:15</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">70200</th>
+                            <th scope="row">LED —MOON</th>
+                            <th scope="row">17:30</th>
+                            <th scope="row">16:20</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+        <footer>
+            <div class="logo-with-copyright">
+                <div class="logo-with-name">
+                    <img src="../img/logo.png" alt="logo">
+                    <p>Space Z</p>
+                </div>
+                <div class="copyright"><p> ООО «Космос Зэ». <br> Все права защищены.</p></div>
+            </div>            
+            <div class="footer-navigation-panel">
+                <nav aria-label="company">
+                    <p><strong>КОМПАНИЯ</strong></p>
+                    <a href="">История</a>
+                    <a href="">Миссия</a>
+                    <a href="">Команда</a>                
+                </nav>
+                <nav aria-label="catalog">
+                    <p><strong>КАТАЛОГ</strong></p>
+                    <a href="">Полеты</a>
+                    <a href="">Проживание</a>
+                    <a href="">Экскурсии</a>                
+                </nav>
+                <nav aria-label="contacts">
+                    <p><strong>КОНТАКТЫ</strong></p>
+                    <a href="#request-form">Отправить заявку</a>
+                    <a href="">Схема проезда</a>
+                    <a href="">Время работы</a>                
+                </nav>
+            </div>            
+        </footer>
+        <script src="Scripts/InputsAnimation.js"></script>   
+        <script src="Scripts/FormScript.js"></script>
+        <script src="Scripts/IntroButtonAnimation.js"></script>
+    </body>    
+</html>
