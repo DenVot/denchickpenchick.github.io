@@ -1,3 +1,5 @@
+//Войтенко Денис 9А
+console.log("Войтенко Денис 9А");
 //Данный скрипт отвечает за данные формы и за анимацию внутри нее
 let sendFormButton = document.querySelector('.send-confirm');
 let inputs = document.getElementsByTagName('input');
@@ -27,7 +29,7 @@ sendFormButton.onclick = function() {
         { transform: 'translateX(0px)' },
         { transform: 'translateX(-10px)' },
         { transform: 'translateX(0px)'} ],
-        { duration: 200, direction: "alternate" });        
+        { duration: 200, direction: "alternate" });                
     }    
 }
 

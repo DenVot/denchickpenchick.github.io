@@ -1,3 +1,4 @@
+//Войтенко Денис 9А
 //Данный скрипт отвечает за анимацию первой кнопки на странице
 let introButton = document.querySelector('.get-tour-button');
 let img = introButton.querySelector('.intro-arrow');

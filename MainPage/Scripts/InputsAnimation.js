@@ -1,3 +1,4 @@
+//Войтенко Денис 9А
 //Данный скрипт отвечает за анимацию полей ввода
 let inputsAnim = document.getElementsByTagName('input');
 
