@@ -68,6 +68,7 @@ a {
 
 table {
   width: 60%;
+  border-spacing: 0;
 }
 
 th {
