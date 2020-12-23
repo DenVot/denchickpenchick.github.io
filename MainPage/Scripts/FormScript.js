@@ -9,15 +9,21 @@ let confirmText = document.getElementById('text-of-confirm');
 
 //Кликнули на кнопку
 sendFormButton.onclick = function() {
-    if(checkBox.checked) {
-        console.log('click');
+    let dataCancel = false;
+    if(checkBox.checked) {        
         let content = 'Данные:';
         for(let input of inputs) {
             if(input != checkBox)  {
+                if(input.value === '') {
+                    input.style.borderColor = 'red';
+                    input.style.transition = 'all 0.5s'; 
+                    dataCancel = true;
+                }
                 content += '\n' + input.value;        
             }                      
         }
-        alert(content);        
+        if(!dataCancel)
+            alert(content);        
     } else {
         //Не подтвердили соглашение. Делаем встряску.
         confirmText.animate([{ transform: 'translateX(0px)' },
